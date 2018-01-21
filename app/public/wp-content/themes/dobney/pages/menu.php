@@ -23,7 +23,7 @@ Template Name: Menu
 
 		<div class="dbo--menu__content">
 			<div class="dbo__container wow fadeInUp">
-				<p class="dbo--menu__intro">Integer pellentesque libero at neque interdum, at finibus nisi vestibulum. Quisque id porttitor urna. Cras condimentum ex eu nulla sagittis, id consequat massa convallis. Nulla justo dolor.</p>
+				<p class="dbo--menu__intro">Our wedding breakfast is a little different than normal. Each guest will be provided with 3 main dishes and a selection of sides and salads will be available to share.</p>
 				<ul class="dbo--menu__section canapes">
 					<li class="title"><h3>Canapes</h3></li>
 					<li>Lincolnshire poacher cheese spheres (v)</li>

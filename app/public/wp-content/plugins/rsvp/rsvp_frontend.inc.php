@@ -410,9 +410,10 @@ function rsvp_buildAdditionalQuestions($attendeeID, $prefix) {
 					// normal text input
 					$output .= "<input type=\"text\" name=\"".$prefix."question".$q->id."\" value=\"".htmlspecialchars($oldAnswer)."\" size=\"25\" />";
 				}
-
-			$output .= RSVP_END_FORM_FIELD."</div>";
+			$output .= "</div>";
 		}
+		
+		$output .= "</div>";
 	}
 
 	return $output;
@@ -468,7 +469,7 @@ function rsvp_find(&$output, &$text) {
 		// hey we found something, we should move on and print out any associated users and let them rsvp
 		$output = RSVP_START_CONTAINER;
 		if(strtolower($attendee->rsvpStatus) == "noresponse") {
-			$output .= "<div class='rsvp__form__intro'><div class='rsvp__form__greeting'>".__("Hi", 'rsvp-plugin')." ".htmlspecialchars(stripslashes($attendee->firstName." ".$attendee->lastName))."</div>";
+			$output .= "<div class='rsvp__form__intro'><div class='rsvp__form__greeting'>".__("Hey", 'rsvp-plugin')." ".htmlspecialchars(stripslashes($attendee->firstName))."</div>";
 
 			if(trim(get_option(OPTION_WELCOME_TEXT)) != "") {
 				$output .= "<div class='rsvp__form__message'>".trim(get_option(OPTION_WELCOME_TEXT))."</div>";
