@@ -1,0 +1,31 @@
+.dbo__title {
+	padding: 1px 0 0 0;
+	background: $light;
+	margin: 0 0 120px;
+
+	h1 {
+		margin: 50px 0 10px 0;
+	}
+
+	img {
+		margin: 0 auto -120px auto;
+	}
+
+	@include media-query(max, $lap-start){
+        margin: 0 0 60px;
+
+        img {
+			margin: 0 auto -60px auto;
+		}
+    }
+}
+
+.dbo__divider {
+	padding: 40px 0 45px 0;
+	text-align: center;
+
+	img {
+		width: 60px;
+		margin: 0;
+	}
+}

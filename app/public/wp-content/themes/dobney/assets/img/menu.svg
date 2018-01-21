@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="51px" height="42px" viewBox="0 0 51 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#F8EAE0" offset="0%"></stop>
+            <stop stop-color="#F4D9D4" offset="26.0024713%"></stop>
+            <stop stop-color="#C48F8B" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="116.834912%" y1="-422.888756%" x2="-27.8430492%" y2="-422.888704%" id="linearGradient-2">
+            <stop stop-color="#F8EAE0" offset="0%"></stop>
+            <stop stop-color="#F4D9D4" offset="26.0024713%"></stop>
+            <stop stop-color="#C48F8B" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-4" transform="translate(-1331.000000, -164.000000)" fill="url(#linearGradient-2)">
+            <g id="Page-1" transform="translate(1331.000000, 163.000000)">
+                <polygon id="Fill-1" points="11.58 4.3335 50.666 4.3335 50.666 0.9995 11.58 0.9995"></polygon>
+                <polygon id="Fill-2" points="0 23.6665 50.666 23.6665 50.666 20.3325 0 20.3325"></polygon>
+                <polygon id="Fill-3" points="11.58 43.0005 50.666 43.0005 50.666 39.6665 11.58 39.6665"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

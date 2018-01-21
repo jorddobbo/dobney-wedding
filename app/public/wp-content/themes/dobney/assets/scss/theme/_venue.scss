@@ -1,0 +1,182 @@
+.dbo--venue__intro {
+	margin: 0 0 40px 0;
+	padding: 100px 0;
+
+	h2 {
+		text-transform: uppercase;
+		font-size: 24px;
+	}
+
+	span {
+		display: block;
+	    font-size: 23px;
+	    text-transform: initial;
+	    letter-spacing: 0.03em;
+	    color: #626065;
+	    padding: 10px 0 0 0;
+	}
+
+	.content {
+		max-width: 430px;
+		width: 95%;
+		text-align: center;
+		margin: 0 auto;
+		background: #fff;
+		-webkit-box-shadow: 0px 0px 41px 14px rgba(255,255,255,1);
+		-moz-box-shadow: 0px 0px 41px 14px rgba(255,255,255,1);
+		box-shadow: 0px 0px 41px 14px rgba(255,255,255,1);
+	}
+}
+
+.dbo--venue__gallery {
+	position: relative;
+	margin: 0 0 150px 0;
+
+	ul {
+		li {
+			img {
+				width: 100%;
+			}
+		}
+	}
+
+	.slick__prev,
+	.slick__next {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		z-index: 10;
+		width: 150px;
+		overflow: hidden;
+	}
+
+	.slick__prev {
+		opacity: 0.2;
+		left: 0;
+		background: linear-gradient(90deg, rgba(#000,0.5) 0%, rgba(#000,0) 100%);
+		display: flex;
+		align-items: center;
+		padding-left: 20px;
+		transition: all .2s ease-in-out;
+
+		img {
+			transform: rotate(180deg);
+			display: inline-block;
+		}
+	}
+
+	.slick__next {
+		opacity: 0.2;
+		right: 0;
+		background: linear-gradient(90deg, rgba(#000,0) 0%, rgba(#000,0.5) 100%);
+		display: flex;
+		align-items: center;
+		padding-right: 20px;
+		justify-content: flex-end;
+		transition: all .2s ease-in-out;
+
+		img {
+			display: inline-block;
+		}
+	}
+
+	&:hover {
+		.slick__prev {
+			opacity: 1;
+		}
+		.slick__next {
+			opacity: 1;
+		}
+	}
+
+}
+
+.dbo--venue__map {
+	max-width: 800px;
+	width: 90%;
+    margin: 0 auto 150px auto;
+    border: 2px solid #eeeeee;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+
+    .half--map {
+		flex: 1 1 50%;
+		width: 50%;
+	}
+
+	.half--info {
+		flex: 1 1 50%;
+		width: 50%;
+		padding: 40px 10px 20px 40px;
+	}
+
+	h2 {
+		text-align: left;
+		font-size: 24px;
+		text-transform: uppercase;
+	}
+
+	img {
+		margin: -30px 0 -30px 0;
+		box-shadow: 2px 3px 45px rgba(0,0,0,0.12);
+	}
+
+	@include media-query(max, $lap-start) {
+		display: block;
+		text-align: center;
+
+		.half--map {
+			width: 100%;
+		}
+
+		.half--info {
+			width: 100%;
+			padding: 30px 0 20px 0;
+		}
+
+		h2 {
+			text-align: center;
+		}
+
+		img {
+			margin: -30px 0 0 0;
+		}
+	}
+}
+
+.dbo--venue__icons {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 800px;
+    margin: 0 auto 110px auto;
+    align-items: flex-end;
+    justify-content: center;
+
+	.icon {
+		flex: 1 1 33.333%;
+		margin: 0 0 40px 0;
+	}
+
+	img {
+		width: 90px;
+		margin: 0 auto 20px auto;
+		display: block;
+	}
+
+	h3 {
+		text-align: center;
+		margin: 0;
+		letter-spacing: 0.03em;
+	}
+
+	@include media-query(max, $lap-start) {
+		width: 90%;
+
+		.icon {
+			flex: 0 1 50%;
+			margin: 0 0 40px 0;
+		}
+	}
+
+}

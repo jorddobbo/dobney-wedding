@@ -1,0 +1,36 @@
+.accordion-wrap {
+	position: relative;
+	padding: 30px 0;
+
+	&::after {
+		content: '';
+		position: absolute;
+		left: 40%;
+		right: 40%;
+		bottom: 0;
+		height: 1px;
+		background: rgba(#000, 0.1);
+	}
+
+	&:last-child {
+		padding-bottom: 0;
+
+		&::after {
+			display: none;
+		}
+	}
+
+}
+
+.accordion-toggle {
+	cursor: pointer;
+}
+
+.accordion-content {
+	margin: 20px 0 0 0;
+	display: none;
+}
+
+.accordion-content.default {
+	display: block;
+}

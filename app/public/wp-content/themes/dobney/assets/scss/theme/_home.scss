@@ -1,0 +1,117 @@
+.dbo--home {
+	.header {
+		@include media-query(max, $lap-start) {
+			position: absolute;
+			top: 0;
+			right: 0;
+			z-index: 99;
+		}
+	}
+}
+
+.dbo--home__hero {
+	position: relative;
+	display: flex;
+	height: 93vh;
+	min-height: 600px;
+	text-align: center;
+	width: 100%;
+	justify-content: center;
+	@include particles(inset 0px 0px 60px 60px white);
+
+	.content {
+		flex: 0 0 auto;
+		align-self: center;
+		background: #fff;
+		padding: 20px;
+		-webkit-box-shadow: 0px 0px 41px 14px rgba(255,255,255,1);
+		-moz-box-shadow: 0px 0px 41px 14px rgba(255,255,255,1);
+		box-shadow: 0px 0px 41px 14px rgba(255,255,255,1);
+	}
+
+	h2 {
+		letter-spacing: 4px;
+		margin: 0 0 -20px 0;
+	}
+
+	h1 {
+		@include script(130px);
+		margin: 0;
+		color: #e99390;
+		padding: 30px 30px 0 30px;
+		letter-spacing: 0;
+
+		background: linear-gradient(0deg, #C48F8B 50%, #F4D9D4 80%, #F8EAE0 100%);
+		background-size: 200% auto;
+		  
+		background-clip: text;
+		text-fill-color: transparent;
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	img {
+		margin-top: -10px;
+	}
+
+	@media screen and (max-width: $lap-start) {
+		h1 {
+			font-size: 100px;
+    		line-height: 130px;
+		}
+	}
+}
+
+.dbo--home__intro {
+	max-width: 430px;
+	width: 95%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 100px 0 0 0;
+
+	h2 {
+		text-transform: uppercase;
+    	font-size: 24px;
+	}
+}
+
+.dbo--home__photos {
+	@include particles(inset 0px 0px 60px 60px white);
+}
+
+.dbo--home__info {
+	max-width: 550px;
+	width: 95%;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 0 150px 0;
+
+	h2 {
+		margin: 0 0 40px 0;
+		span {
+			@include script(60px);
+			padding: 0 20px;
+		}
+	}
+
+	p {
+		margin: 0;
+	}
+
+	.half {
+		display: flex;
+		align-items: center;
+
+		.left {
+			flex: 1 0 auto;
+			border-right: 2px solid $light;
+			margin-right: -2px;
+		}
+
+		.right {
+			flex: 1 0 auto;
+			border-left: 2px solid $light;
+		}
+	}
+
+}

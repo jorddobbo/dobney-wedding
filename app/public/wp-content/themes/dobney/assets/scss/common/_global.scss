@@ -1,0 +1,48 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+html {
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    background: #fff;
+    color: $dark;
+    font: #{($base-font-size/16px)*100%}/#{$base-line-height} $sans;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: auto;
+    height: 100%;
+    min-height: 100%;
+}
+
+a {
+    color: $darker;
+    text-decoration: none;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+p {
+    margin: 0 0 20px 0;
+    letter-spacing: 0.03em;
+}

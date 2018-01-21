@@ -1,0 +1,245 @@
+.dbo--footer__rsvp {
+	width: 800px;
+	max-width: 80%;
+	margin: 0 auto 150px auto;
+	border: 2px solid $light;
+	text-align: center;
+
+	.title {
+		margin: -50px auto 0 auto;
+		background: #fff;
+		padding: 0 20px;
+		width: auto;
+		display: inline-block;
+	}
+
+	h2 {
+		@include script(60px);
+		margin: 0;
+		text-align: center;
+	}
+
+	h3 {
+		position: relative;
+		z-index: 1;
+		font-size: 15px;
+		text-transform: uppercase;
+		margin: 0 0 30px !important;
+		padding: 0;
+
+		&:before {
+	        border-top: 2px solid $light;
+	        content:"";
+	        margin: 0 auto; 
+	        position: absolute;
+	        top: 50%; left: 0; right: 0; bottom: 0;
+	        width: 100%;
+	        z-index: -1;
+	    }
+
+	    span { 
+	        position: relative;
+			top: 2px;
+	        background: #fff; 
+	        padding: 0 15px; 
+		}
+	}
+
+	.deadline {
+		font-family: 'Brandon';
+	    display: inline-block;
+	    margin-bottom: -14px;
+	    background: #fff;
+	    padding: 0 30px;
+	    font-size: 13px;
+	    letter-spacing: 0.1em;
+	}
+
+	#rsvpCustomGreeting {
+		margin: 25px 0;
+	}
+
+	.rsvp__form-radio {
+		margin: 30px 0 30px 0;
+	}
+
+	[type="radio"]:not(:checked),
+	[type="radio"]:checked {
+	  position: absolute;
+	  left: -9999px;
+	}
+	[type="radio"]:not(:checked) + label,
+	[type="radio"]:checked + label {
+	  position: relative;
+	  padding-left: 1.95em;
+	  cursor: pointer;
+	  margin: 0;
+	}
+
+	[type="radio"]:not(:checked) + label:before,
+	[type="radio"]:checked + label:before {
+		content: '';
+	    position: absolute;
+	    left: -10px;
+	    top: -5px;
+	    width: 35px;
+	    height: 17px;
+	    border-bottom: 2px solid #343434;
+	}
+
+	[type="radio"]:not(:checked) + label:after,
+	[type="radio"]:checked + label:after {
+	 	content: '';
+	    background-image: url(../img/rsvp/x.svg);
+	    height: 44px;
+	    width: 22px;
+	    background-size: 100% auto;
+	    background-repeat: no-repeat;
+	    background-position: 50% 50%;
+	    position: absolute;
+	    top: -10px;
+	    left: -1px;
+	    font-size: 1.3em;
+	    line-height: 0.8;
+	    color: #09ad7e;
+	    transition: all .2s;
+	}
+
+	[type="radio"]:not(:checked) + label:after {
+	  opacity: 0;
+	  transform: scale(0);
+	}
+
+	[type="radio"]:checked + label:after {
+	  opacity: 1;
+	  transform: scale(1);
+	}
+
+	.rsvpParagraph {
+		margin: 0 auto;
+	}
+
+	.rsvpCustomQuestions {
+		padding: 0;
+	}
+
+	.rsvpAdditionalAttendee {
+		margin: 0 0 30px 0;
+		border-bottom: 2px solid #eee;
+
+		.rsvpCustomQuestions {
+			padding-bottom: 0;
+		}
+
+		p {
+
+		}
+
+	}
+}
+
+.rsvp__form__intro {
+	padding: 20px 0 10px 0;
+	width: 500px;
+	margin: 0 auto;
+}
+
+.rsvp__form__greeting {
+	margin: 0 0 10px 0;
+}
+
+.rsvp__form__message {
+	font-family: 'Brandon';
+	font-size: 15px;
+}
+
+.rsvp__form--standard {
+	display: flex;
+	flex-wrap: wrap;
+	width: auto;
+	margin: 20px -30px 30px;
+
+	input[type="submit"] {
+		flex: 0 0 auto;
+    	width: 20%;
+	}
+
+	@media screen and (max-width: 650px) {
+		input[type="submit"] {
+			flex: 0 0 auto;
+	    	width: 100%;
+		}
+	}
+}
+
+.rsvp__form__input {
+	position: relative;
+	flex: 1 0 auto;
+	padding: 0 20px 0 0;
+	width: 40%;
+
+	input[type="text"] {
+		width: 100%;
+	}
+
+	input.error {
+		box-shadow: inset 0px 0px 0px 2px #ec635a;
+	}
+
+	label.error {
+		display: none !important;
+	}
+
+	@media screen and (max-width: 650px) {
+		padding: 0;
+		flex: 1 0 auto;
+		width: 100%;
+
+		#firstName {
+			border-bottom: 2px solid darken($light, 6%);
+		}
+	}
+
+}
+
+.rsvp__form--edit {
+	input[type="submit"] {
+		width: auto;
+		display: inline-block;
+		margin: 0 10px;
+	}
+}
+
+.rsvp__form--add {
+	padding: 0 30px 20px 30px;
+
+	.rsvp__form-radio {
+
+		.rsvpFormField {
+			display: inline-block;
+			margin: 0 20px;
+		}
+	}
+
+	textarea {
+		width: 100%;
+		background-color: $light;
+		margin: 0 0 30px 0;
+	}
+}
+
+.rsvp__form--errored {
+	padding: 20px 0 0 0;
+}
+
+.rsvp__form--added {
+	padding: 30px;
+
+	p.rsvpParagraph {
+		margin: 0 0 20px 0;
+	}
+}
+
+.rsvp__form--thank-you {
+	padding: 30px;
+}
