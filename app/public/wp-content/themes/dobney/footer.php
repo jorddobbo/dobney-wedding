@@ -5,7 +5,7 @@
 				<div class="dbo--footer__rsvp-wrap">
 					<?php echo do_shortcode('[rsvp]'); ?>
 				</div>
-				<div class="deadline">Please RSVP by the 19th of March 2018</div>
+				<div class="deadline">Please RSVP by 1st April 2018</div>
 			</div>
 
 			<div class="dbo--footer__links wow fadeInUp">
