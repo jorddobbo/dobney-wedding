@@ -5424,6 +5424,8 @@ body#tinymce {
       padding: 0 15px; }
 .dbo--footer__rsvp h3.lead {
     font-size: 20px; }
+.dbo--footer__rsvp h3.lead:before {
+      display: none; }
 .dbo--footer__rsvp h3.lead span {
       top: 3px; }
 .dbo--footer__rsvp .dbo__divider {
