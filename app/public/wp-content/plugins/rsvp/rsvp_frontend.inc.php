@@ -260,7 +260,7 @@ function rsvp_frontend_main_form($attendeeID, $rsvpStep = "handleRsvp") {
 
 	$associations = $wpdb->get_results($wpdb->prepare($sql, $attendeeID, $attendeeID, $attendeeID, $attendeeID));
 	if(count($associations) > 0) {
-		$form .= "<h3><span>".__("Associated Guests", 'rsvp-plugin')."</span></h3>";
+		$form .= "<div class='dbo__divider'><img src='/wp-content/themes/dobney/assets/img/leaf-sm.svg' /></div><div class='rsvp__spacing'></div><h3 class='lead'><span>".__("Associated Guests", 'rsvp-plugin')."</span></h3>";
 		foreach($associations as $a) {
       if($a->id != $attendeeID) {
   			$form .= "<div class=\"rsvpAdditionalAttendee\">\r\n";
@@ -371,9 +371,9 @@ function rsvp_buildAdditionalQuestions($attendeeID, $prefix) {
 					if(count($answers) > 0) {
 						$i = 0;
 						foreach($answers as $a) {
-							$output .= rsvp_BeginningFormField("", "rsvpCheckboxCustomQ")."<input type=\"checkbox\" name=\"".$prefix."question".$q->id."[]\" id=\"".$prefix."question".$q->id.$a->id."\" value=\"".$a->id."\" "
+							$output .= "<div class='rsvpFormField'>" . rsvp_BeginningFormField("", "rsvpCheckboxCustomQ")."<input type=\"checkbox\" name=\"".$prefix."question".$q->id."[]\" id=\"".$prefix."question".$q->id.$a->id."\" value=\"".$a->id."\" "
 							  .((in_array(stripslashes($a->answer), $oldAnswers)) ? " checked=\"checked\"" : "")." />".
-                "<label for=\"".$prefix."question".$q->id.$a->id."\">".stripslashes($a->answer)."</label>\r\n".RSVP_END_FORM_FIELD;
+                "<label for=\"".$prefix."question".$q->id.$a->id."\">".stripslashes($a->answer)."</label>\r\n".RSVP_END_FORM_FIELD . "</div>";
 							$i++;
 						}
             $output .= "<div class=\"rsvpClear\">&nbsp;</div>\r\n";
@@ -397,14 +397,14 @@ function rsvp_buildAdditionalQuestions($attendeeID, $prefix) {
 					$answers = $wpdb->get_results($wpdb->prepare("SELECT id, answer FROM ".QUESTION_ANSWERS_TABLE." WHERE questionID = %d", $q->id));
 					if(count($answers) > 0) {
 						$i = 0;
-						$output .= RSVP_START_PARA;
+						$output .= "<div class='rsvp__form-radio'>";
 						foreach($answers as $a) {
-							$output .= "<input type=\"radio\" name=\"".$prefix."question".$q->id."\" id=\"".$prefix."question".$q->id.$a->id."\" value=\"".$a->id."\" "
+							$output .= "<div class='rsvpFormField'><input type=\"radio\" name=\"".$prefix."question".$q->id."\" id=\"".$prefix."question".$q->id.$a->id."\" value=\"".$a->id."\" "
 							  .((stripslashes($a->answer) == $oldAnswer) ? " checked=\"checked\"" : "")." /> ".
-              "<label for=\"".$prefix."question".$q->id.$a->id."\">".stripslashes($a->answer)."</label>\r\n";
+              "<label for=\"".$prefix."question".$q->id.$a->id."\">".stripslashes($a->answer)."</label></div>\r\n";
 							$i++;
 						}
-						$output .= RSVP_END_PARA;
+						$output .= "</div>";
 					}
 				} else {
 					// normal text input

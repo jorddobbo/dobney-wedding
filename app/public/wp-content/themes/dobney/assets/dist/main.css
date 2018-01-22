@@ -5418,9 +5418,33 @@ body#tinymce {
       z-index: -1; }
 .dbo--footer__rsvp h3 span {
       position: relative;
+      display: inline-block;
       top: 2px;
       background: #fff;
       padding: 0 15px; }
+.dbo--footer__rsvp h3.lead {
+    font-size: 20px; }
+.dbo--footer__rsvp h3.lead span {
+      top: 3px; }
+.dbo--footer__rsvp .dbo__divider {
+    position: relative;
+    padding: 10px 0 10px;
+    margin: 0 0 20px 0; }
+.dbo--footer__rsvp .dbo__divider img {
+      position: relative;
+      width: 100px;
+      padding: 0 20px;
+      z-index: 2;
+      background: #fff; }
+.dbo--footer__rsvp .rsvp__spacing {
+    height: 80px;
+    background: #fff;
+    margin-left: -32px;
+    margin-right: -32px;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+    margin-top: -42px;
+    margin-bottom: -15px; }
 .dbo--footer__rsvp .deadline {
     font-family: 'Brandon';
     display: inline-block;
@@ -5489,8 +5513,8 @@ body#tinymce {
 .dbo--footer__rsvp .rsvpAdditionalAttendee .rsvpCustomQuestions {
       padding-bottom: 0; }
 .rsvp__form__intro {
-  padding: 20px 0 10px 0;
-  width: 500px;
+  padding: 20px 30px 10px 30px;
+  max-width: 500px;
   margin: 0 auto; }
 .rsvp__form__greeting {
   margin: 0 0 10px 0; }
