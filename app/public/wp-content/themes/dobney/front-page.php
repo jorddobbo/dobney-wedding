@@ -6,7 +6,7 @@
 
 			<div class="dbo--home__intro">
 				<h2>We’re so happy to invite you to our wedding.</h2>
-				<p>On June 11th 2016, on a white-washed balcony overlooking the Medittarean Sea, we became engaged. Now, almost two years later, we're about to become Mr. and Mrs, and would love nothing more than to share the day with you, our friends and family.</p>
+				<p>On June 11th 2016, on a white-washed balcony overlooking the Mediterranean Sea, we became engaged. Now, almost two years later, we're about to become Mr. and Mrs, and would love nothing more than to share the day with you, our friends and family.</p>
 			</div>
 
 		</div>
@@ -29,7 +29,7 @@
 				</div>
 				<div class="right">
 					<p>Ceremony <italic>1.00pm</italic><br>
-					Reception <italic>6.00pm</italic></p>
+					Reception <italic>6.30pm</italic></p>
 				</div>
 			</div>
 		</div>

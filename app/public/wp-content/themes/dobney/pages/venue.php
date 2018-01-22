@@ -60,23 +60,23 @@ Template Name: Venue
 
 		<div class="dbo--venue__icons">
 			<div class="icon">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/venue/icon--01.svg" />
-				<h3>Cashh Bar</h3>
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/venue/icon--05.svg" />
+				<h3>Cash Bar</h3>
 			</div>
 			<div class="icon">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/venue/icon--02.svg" />
 				<h3>One Venue</h3>
 			</div>
 			<div class="icon">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/venue/icon--03.svg" />
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/venue/icon--01.svg" />
 				<h3>Free Parking</h3>
 			</div>
 			<div class="icon">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/venue/icon--04.svg" />
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/venue/icon--03.svg" />
 				<h3>Kids Park</h3>
 			</div>
 			<div class="icon">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/venue/icon--05.svg" />
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/venue/icon--04.svg" />
 				<h3>Sofa Area</h3>
 			</div>
 			<div class="icon">

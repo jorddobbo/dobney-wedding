@@ -26,9 +26,7 @@ Template Name: Menu
 				<p class="dbo--menu__intro">Our wedding breakfast is a little different than normal. Each guest will be provided with 3 main dishes and a selection of sides and salads will be available to share.</p>
 				<ul class="dbo--menu__section canapes">
 					<li class="title"><h3>Canapes</h3></li>
-					<li>Lincolnshire poacher cheese spheres (v)</li>
 					<li>Sour dough bruschetta, tomato and basil chutney (v)</li>
-					<li>Mini fish n chips</li>
 					<li>Lincolnshire sausages, port and grain mustard glaze</li>
 				</ul>
 				<div class="dbo__divider">
@@ -48,8 +46,17 @@ Template Name: Menu
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/leaf-sm.svg" />
 				</div>
 				<ul class="dbo--menu__section desserts">
-					<li class="title"><h3>Kids</h3></li>
+					<li class="title"><h3>Kids Meal</h3></li>
 					<li>Chicken goujons & chips (tomato ketchup) + Dessert</li>
+				</ul>
+				<div class="dbo__divider">
+					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/leaf-sm.svg" />
+				</div>
+				<ul class="dbo--menu__section drinks">
+					<li class="title"><h3>Desserts</h3></li>
+					<li>Dark chocolate brownie, honeycomb</li>
+					<li>Lemon zest cheesecake</li>
+					<li>Eton mess parfait</li>
 				</ul>
 				<div class="dbo__divider">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/leaf-sm.svg" />
@@ -65,15 +72,7 @@ Template Name: Menu
 					<li class="title"><h3>Evening Food</h3></li>
 					<li>Roasted chicken, red chilli, yellow pepper and rocket pizza</li>
 					<li>Sun blushed tomato, mozzarella and baby basil pizza (v)</li>
-				</ul>
-				<div class="dbo__divider">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/leaf-sm.svg" />
-				</div>
-				<ul class="dbo--menu__section drinks">
-					<li class="title"><h3>Evening Food</h3></li>
-					<li>Dark chocolate brownie, honeycomb</li>
-					<li>Lemon zest cheesecake</li>
-					<li>Eton mess parfait</li>
+					<li>Plenty of cake and sweet treats</li>
 				</ul>
 				<div class="dbo__divider">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/leaf-sm.svg" />

@@ -21,16 +21,18 @@ Template Name: Information
 				<div class="content">
 					<h3>SCHEDULE</h3>
 					<ul>
-						<li><div class="left">Ceremony</div><div class="right">1:00pm</div></li>
-						<li><div class="left">Guest Arrival</div><div class="right"> 12:30pm</div></li>
-						<li><div class="left">Drinks & Canapes</div><div class="right">1:30pm</div></li>
-						<li><div class="left">Sit Down</div><div class="right">3:00pm</div></li>
-						<li><div class="left">Speeches</div><div class="right">6:30pm</div></li>
-						<li><div class="left">Evening Guests Arrive</div><div class="right">7:15pm</div></li>
-						<li><div class="left">Cutting of Cake</div><div class="right">7:20pm</div></li>
-						<li><div class="left">First Dance</div><div class="right">8:00pm</div></li>
-						<li><div class="left">Evening Food</div><div class="right">9:00pm</div></li>
-						<li><div class="left">Bar Closes</div><div class="right">11:00pm</div></li>
+						<li><div class="left">Ceremony</div><div class="right">1.00pm</div></li>
+						<li><div class="left">Day Guests Arrive</div><div class="right"> 12.30pm</div></li>
+						<li><div class="left">Ceremony</div><div class="right"> 1.00pm</div></li>
+						<li><div class="left">Drinks Reception & Canapes</div><div class="right">1.30pm</div></li>
+						<li><div class="left">Wedding Breakfast</div><div class="right">3.00pm</div></li>
+						<li><div class="left">Speeches</div><div class="right">3.10pm</div></li>
+						<li><div class="left">Evening Guests Arrive</div><div class="right">6.30pm</div></li>
+						<li><div class="left">Cutting of Cake</div><div class="right">7.15pm</div></li>
+						<li><div class="left">First Dance</div><div class="right">7.20pm</div></li>
+						<li><div class="left">Evening Food</div><div class="right">8.00pm</div></li>
+						<li><div class="left">Bar Closes</div><div class="right">11.00pm</div></li>
+						<li><div class="left">Carriages</div><div class="right">11.30pm</div></li>
 					</ul>
 				</div>
 			</div>
@@ -97,7 +99,7 @@ Template Name: Information
 						<div class="accordion-wrap">
 							<h4 class="accordion-toggle">Is there free parking available?</h4>
 							<div class="accordion-content">
-								<p>Yes, the Park Entry Team will be provided with our guest list. Just let them who you are and that you're there for our wedding, and you'll be able to park in the main car park free of charge.</p>
+								<p>Yes, the Park Entry Team will be provided with our guest list. Just let them know who you are and that you’re there for our wedding, and you’ll be able to park in the main car park free of charge.</p>
 							</div>
 						</div>
 						<div class="accordion-wrap">
@@ -121,7 +123,7 @@ Template Name: Information
 						<div class="accordion-wrap">
 							<h4 class="accordion-toggle">Do evening guests use the Calke Abbey entrance?</h4>
 							<div class="accordion-content">
-								<p>No, due to the main entrance gates being locked for security at 7pm, evening guests and taxis are required to enter the Calke estate via the exit set within Calke Village.You will need to use the postcode LE65 1RR to arrive at the exit.</p>
+								<p>No, due to the main entrance gates being locked for security at 7pm, evening guests and taxis are required to enter the Calke estate via the exit set within Calke Village. You will need to use the postcode LE65 1RR to arrive at the exit.</p>
 							</div>
 						</div>
 					</div>
