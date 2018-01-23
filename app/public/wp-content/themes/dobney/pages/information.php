@@ -21,7 +21,6 @@ Template Name: Information
 				<div class="content">
 					<h3>SCHEDULE</h3>
 					<ul>
-						<li><div class="left">Ceremony</div><div class="right">1.00pm</div></li>
 						<li><div class="left">Day Guests Arrive</div><div class="right"> 12.30pm</div></li>
 						<li><div class="left">Ceremony</div><div class="right"> 1.00pm</div></li>
 						<li><div class="left">Drinks Reception & Canapes</div><div class="right">1.30pm</div></li>
@@ -43,25 +42,31 @@ Template Name: Information
 				<h3>NEARBY HOTELS</h3>
 				<div class="hotels__wrap">
 					<div class="hotel">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/information/hotel_one.png" />
-						<div class="hotel__info">
-							<h4>The Staff of Life</h4>
-							<p>4 mins</p>
-						</div>
+						<a href="http://thestaffoflife.co.uk/staywithus.php" target="_blank">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/information/hotel_one.png" />
+							<div class="hotel__info">
+								<h4>The Staff of Life</h4>
+								<p>9 mins</p>
+							</div>
+						</a>
 					</div>
 					<div class="hotel">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/information/hotel_two.png" />
-						<div class="hotel__info">
-							<h4>Harpurs of Melbourne</h4>
-							<p>4 mins</p>
-						</div>
+						<a href="https://harpursofmelbourne.co.uk/bedrooms/" target="_blank">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/information/hotel_two.png" />
+							<div class="hotel__info">
+								<h4>Harpurs of Melbourne</h4>
+								<p>9 mins</p>
+							</div>
+						</a>
 					</div>
 					<div class="hotel">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/img/information/hotel_three.png" />
-						<div class="hotel__info">
-							<h4>Crewe & Harpur</h4>
-							<p>4 mins</p>
-						</div>
+						<a href="http://www.marstonsinns.co.uk/inns/crewe-harpur-swarkestone-derby" target="_blank">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/img/information/hotel_three.png" />
+							<div class="hotel__info">
+								<h4>Crewe & Harpur</h4>
+								<p>13 mins</p>
+							</div>
+						</a>
 					</div>
 				</div>
 				<div class="dbo__divider">
