@@ -5870,14 +5870,6 @@ body#tinymce {
     .dbo--information__hotels .hotels__wrap {
       display: block; }
     .dbo--information__hotels .hotel {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-          -ms-flex-align: center;
-              align-items: center;
       width: 100%;
       padding: 20px 0;
       border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
@@ -5886,6 +5878,16 @@ body#tinymce {
       .dbo--information__hotels .hotel:last-child {
         border-bottom: 0;
         padding-bottom: 0; }
+    .dbo--information__hotels a {
+      width: 100%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
     .dbo--information__hotels img {
       margin: 0;
       width: 100px; }
